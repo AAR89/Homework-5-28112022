@@ -3,7 +3,7 @@
 
 // [345, 897, 568, 234] -> 2
 
-
+Console.Clear();
 int[] FillArray(int num)
 {
     int[] arr = new int[num];
@@ -17,7 +17,7 @@ Console.Write("Введите длину массива: ");
 int num = Convert.ToInt32(Console.ReadLine());
 if (num <= 0)
 {
-    Console.WriteLine("Размер массива может быть только больше 0.");
+    Console.WriteLine("Длина массива может быть только больше 0.");
     return;
 }
 
