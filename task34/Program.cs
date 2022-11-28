@@ -27,7 +27,7 @@ int[] newArray = array;
 int sumNumber = 0;
 for (int i = 0; i < newArray.Length; i++)
 {
-    if (newArray[i] % 2 == 0 && num > 0)
+    if (newArray[i] % 2 == 0)
     {
         sumNumber++;
     }
